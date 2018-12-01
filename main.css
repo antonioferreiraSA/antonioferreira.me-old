@@ -1,0 +1,22 @@
+
+
+body {
+  background-image: url('images/china-city.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.wrapper {
+  width: 4000px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.header {
+  border: 1px solid green;
+}
+
+section {
+  background-color: rgba(0,0,0,0.5);
+}
