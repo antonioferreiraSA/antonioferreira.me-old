@@ -1,20 +1,21 @@
 
 
 body {
-  background-color: blue
+  background-color: lightseagreen;
+
   background-size: cover;
   background-repeat: no-repeat;
-  color: #FFF;
+  00color: #FFF;
 }
 
 .wrapper {
   width: 4000px;
   margin: 0 auto;
-  border: 1px solid red;
+  border: 1px solid black;
 }
 
 .header {
-  border: 1px solid green;
+  border: 1px solid rgb(0, 23, 128);
 }
 
 section {
