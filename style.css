@@ -1,0 +1,176 @@
+html {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+}
+
+body{
+    font-family: "helvetica neve",Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444
+}
+h1, h2, h3,{
+    font-weight: 300;
+    margin: 0;
+    line-height: 45px;
+} 
+
+h4, h5, h6 {
+    font-weight: bold;
+    margin: 5px 0 5px 0; 
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 30;
+}
+
+p{
+    margin: 0 0 60px 0;
+    font-size: 20px;
+    font-weight: 390;
+    line-height: 24px
+}
+p.lead{
+    font-size:20px;
+    font-weight: 300;
+    line-height: 24px; 
+}
+
+.container{
+    width: 940px;
+    padding:0 10px;
+    margin: 0 auto;
+  
+}
+
+header {
+    background: #000;
+}
+#logo{
+    display: block;
+    padding: 17px 0 17px 10px;
+    padding: 12px;
+    float: left;
+    
+}
+#hero {
+    background: #00c0ff;
+} 
+nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+header nav ul li a {
+    dispaly: block;
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    border-left: solid 1px #333; 
+}
+ header nav ul li a:hover {
+     background:  #222;
+ } 
+ 
+ header nav ul li a:active {
+     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0,) insert;
+     -moz-box-shadow:0 0 5px rgba(0, 0, 0, 0,) insert;
+     box-shadow:0 0 5px rgba(0, 0, 0, 0,) insert;
+ }
+
+nav ul li  {
+    list-style: none;
+    float: left;
+}
+
+.clearfix:before,
+.clearfix:after {
+    contant:"";
+    dispaly: tables;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 
+}
+
+#secondary-cta{
+    background:lightgray;
+    padding: 30px 0;
+}
+
+#secondary-cta h4{
+    font-weight: 200;
+    font-size: 24px;
+    float: left;
+    
+}
+#secondary-cta form{
+    margin: 0;
+    float: right;
+    
+
+}
+
+input{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+}
+input[type="text"], input[type="email"] {
+    position: relative;
+    padding: 10px 8px 9px;
+    margin: 0 -5px 0 0;
+}
+
+
+footer{
+    background:#444;
+    color: #fff;
+    padding: 50px 0; 
+}
+
+footer #copyright {
+    width:280px;
+    float: left;
+
+
+}
+footer nav {
+    width: 340px;
+    float: right;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+footer nav a{
+    margin:0 0 0 15px; 
+}
+footer a:hover{
+    color:light blue;
+}
+aside {
+    background: darkgray;
+    width: 160px;
+    color: white;
+    float: right;
+    margin-left: 20px;
+    padding: 30px;
+}
+
+
+
