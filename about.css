@@ -1,0 +1,18 @@
+header {
+    background-image: url(images/12.jpg)
+}
+body{
+    background-image: url(images/jq.jpg)
+}
+h1 {
+    color:white;
+}
+p {
+  color:white;
+}
+li {
+    color: blue;
+}
+h3 {
+    color: black;
+}

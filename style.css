@@ -1,6 +1,7 @@
 html {
    -webkit-font-smoothing: antialiased;
    text-rendering: optimizeLegibility;
+  
 }
 
 body{
@@ -8,6 +9,7 @@ body{
     font-size: 14px;
     line-height: 20px;
     color: #444444
+
 }
 h1, h2, h3,{
     font-weight: 300;
@@ -63,33 +65,8 @@ header {
 #hero {
     background: #00c0ff;
 } 
-nav ul {
-    margin: 0;
-    padding: 0;
-    float: right;
-}
-header nav ul li a {
-    dispaly: block;
-    color:#fff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 20px;
-    border-left: solid 1px #333; 
-}
- header nav ul li a:hover {
-     background:  #222;
- } 
- 
- header nav ul li a:active {
-     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0,) insert;
-     -moz-box-shadow:0 0 5px rgba(0, 0, 0, 0,) insert;
-     box-shadow:0 0 5px rgba(0, 0, 0, 0,) insert;
- }
 
-nav ul li  {
-    list-style: none;
-    float: left;
-}
+
 
 .clearfix:before,
 .clearfix:after {
@@ -171,7 +148,45 @@ aside {
     margin-left: 20px;
     padding: 30px;
 }
-
+.bio {
+    display: block;
+    width: 100%;
+    background-color: #ece9e9;
+    padding: 20px;
+    margin: 20px 0;
+  
+    @include media('>=small') {
+      max-width: 400px;
+      background-color: white;
+      margin: 20px auto;
+    }
+  
+    @include media('>=medium') {
+      max-width: 600px;
+      padding: 30px;
+      margin: 30px auto;
+    }
+  
+    @include media('>=large') {
+      max-width: 800px;
+      padding: 40px;
+      margin: 40px auto;
+    }
+  
+    @include media('>=huge') {
+      max-width: 1000px;
+      padding: 50px;
+      margin: 50px auto;
+    }
+  }
+  @media screen and (max-width: 481px) {
+      #main, #subnav{ /*stack the 2 text boxes*/
+      float: left;
+      padding: 0;
+      width: 94%;  /*3%+94%+3%=100% full width*/
+      margin: 3%; /*3% margin space on all sides*/
+      }
+  }
 
 
 
